@@ -27,8 +27,6 @@ class _HomePageState extends State<HomePage> {
           Navigator.push(context, CupertinoPageRoute(builder: (context)=>AddProduct()));
         },
 
-        ///=============================
-        ///=============================
         child: const Icon(Icons.add),
         backgroundColor: Colors.green,
       ),
